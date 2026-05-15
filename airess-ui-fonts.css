@@ -1,0 +1,45 @@
+/* airess glow — workbench cursive UI (tabs, OPEN EDITORS, search, explorer) */
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label bdi,
+.monaco-workbench .tabs-container > .tab .label-name,
+.monaco-workbench .tabs-container > .tab .monaco-icon-label-container {
+  font-family: "Segoe Script", "Apple Chancery", "Snell Roundhand", "Bradley Hand ITC", "Chalkboard SE", cursive !important;
+  font-size: 12px !important;
+}
+
+.monaco-pane-view .pane > .pane-header h3.title {
+  font-family: "Segoe Script", "Apple Chancery", "Snell Roundhand", "Bradley Hand ITC", "Chalkboard SE", cursive !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  color: var(--vscode-sideBarSectionHeader-foreground) !important;
+  letter-spacing: 0.06em !important;
+}
+
+.quick-input-list .quick-input-list-entry .monaco-icon-label,
+.quick-input-list .quick-input-list-entry .label-name,
+.quick-input-list .quick-input-list-entry .label-description {
+  font-family: "Segoe Script", "Apple Chancery", "Snell Roundhand", "Bradley Hand ITC", "Chalkboard SE", cursive !important;
+}
+
+.quick-input-list .quick-input-list-entry .monaco-icon-label,
+.quick-input-list .quick-input-list-entry .label-name {
+  font-size: 12px !important;
+}
+
+.quick-input-list .quick-input-list-entry .label-description {
+  font-size: 11px !important;
+  opacity: 0.9 !important;
+}
+
+.search-view .monaco-list-row .monaco-icon-label,
+.search-view .monaco-list-row .label-name {
+  font-family: "Segoe Script", "Apple Chancery", "Snell Roundhand", "Bradley Hand ITC", "Chalkboard SE", cursive !important;
+  font-size: 12px !important;
+}
+
+.explorer-folders-view .monaco-tl-row .monaco-icon-label,
+.explorer-folders-view .monaco-tl-row .label-name {
+  font-family: "Segoe Script", "Apple Chancery", "Snell Roundhand", "Bradley Hand ITC", "Chalkboard SE", cursive !important;
+  font-size: 12px !important;
+}

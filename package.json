@@ -1,0 +1,130 @@
+{
+  "name": "airess-theme",
+  "displayName": "airess glow",
+  "description": "Four airess themes: airess bloom (rosy pink light), lumen airess (lilac purple light), midnight airess (magenta noir dark), velvet airess (deep indigo dark). ✨",
+  "version": "1.0.0",
+  "publisher": "airess",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "extensionKind": ["ui"],
+  "extensionPack": ["subframe7536.custom-ui-style"],
+  "categories": ["Themes"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "airess-theme.applyUiFonts",
+        "title": "airess glow: Apply cursive UI fonts"
+      }
+    ],
+    "themes": [
+      {
+        "label": "lumen airess",
+        "uiTheme": "vs",
+        "path": "./themes/airess-lumen.json"
+      },
+      {
+        "label": "airess bloom",
+        "uiTheme": "vs",
+        "path": "./themes/airess-bloom.json"
+      },
+      {
+        "label": "midnight airess",
+        "uiTheme": "vs-dark",
+        "path": "./themes/airess-dark.json"
+      },
+      {
+        "label": "velvet airess",
+        "uiTheme": "vs-dark",
+        "path": "./themes/airess-velvet.json"
+      }
+    ],
+    "configurationDefaults": {
+      "custom-ui-style.watch": true,
+      "custom-ui-style.stylesheet": {
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label": {
+          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-size": "12px"
+        },
+        ".monaco-pane-view .pane > .pane-header h3.title": {
+          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-size": "11px",
+          "font-weight": "600",
+          "color": "var(--vscode-sideBarSectionHeader-foreground)",
+          "letter-spacing": "0.06em"
+        },
+        ".quick-input-list .quick-input-list-entry .monaco-icon-label": {
+          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-size": "12px"
+        },
+        ".quick-input-list .quick-input-list-entry .label-description": {
+          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-size": "11px",
+          "opacity": "0.9"
+        },
+        ".search-view .monaco-list-row .monaco-icon-label": {
+          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-size": "12px"
+        },
+        ".explorer-folders-view .monaco-tl-row .monaco-icon-label": {
+          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-size": "12px"
+        }
+      },
+      "[lumen airess]": {
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": "active",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 5,
+        "editor.cursorSmoothCaretAnimation": "on",
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.cursorWidth": 3,
+        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontSize": 11,
+        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontSize": 11
+      },
+      "[airess bloom]": {
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": "active",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 5,
+        "editor.cursorSmoothCaretAnimation": "on",
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.cursorWidth": 3,
+        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontSize": 11,
+        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontSize": 11
+      },
+      "[midnight airess]": {
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": "active",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 5,
+        "editor.cursorSmoothCaretAnimation": "on",
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.cursorWidth": 3,
+        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontSize": 11,
+        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontSize": 11
+      },
+      "[velvet airess]": {
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": "active",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 5,
+        "editor.cursorSmoothCaretAnimation": "on",
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.cursorWidth": 3,
+        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontSize": 11,
+        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontSize": 11
+      }
+    }
+  }
+}
