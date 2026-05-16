@@ -43,7 +43,7 @@
     "list.activeSelectionIconForeground": "#D8B8FF",
     "list.inactiveSelectionIconForeground": "#B098D8",
     "list.warningForeground": "#FFE566",
-    "list.highlightForeground": "#FF98FF",
+    "list.highlightForeground": "#A080FF",
     "tree.indentGuidesStroke": "#4A3E50",
     "menu.background": "#2A2230",
     "menu.foreground": "#F5E8F0",
@@ -417,6 +417,7 @@
         "markup.bold"
       ],
       "settings": {
+        "foreground": "#A080FF",
         "fontStyle": "bold"
       }
     },

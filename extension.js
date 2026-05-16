@@ -7,7 +7,7 @@ const APPLY_CMD = 'airess-theme.applyUiFonts';
 const APPLIED_KEY = 'airessTheme.uiFontsApplied';
 
 const AIRESS_UI_CURSIVE =
-  "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive";
+  "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
 
 /** @type {Record<string, Record<string, string>>} */
 const AIRESS_UI_STYLESHEET = {

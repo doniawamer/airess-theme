@@ -16,7 +16,7 @@
     "commands": [
       {
         "command": "airess-theme.applyUiFonts",
-        "title": "airess glow: Apply cursive UI fonts"
+        "title": "airess glow: Apply UI fonts"
       }
     ],
     "themes": [
@@ -45,31 +45,31 @@
       "custom-ui-style.watch": true,
       "custom-ui-style.stylesheet": {
         ".monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label": {
-          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
           "font-size": "12px"
         },
         ".monaco-pane-view .pane > .pane-header h3.title": {
-          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
           "font-size": "11px",
           "font-weight": "600",
           "color": "var(--vscode-sideBarSectionHeader-foreground)",
           "letter-spacing": "0.06em"
         },
         ".quick-input-list .quick-input-list-entry .monaco-icon-label": {
-          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
           "font-size": "12px"
         },
         ".quick-input-list .quick-input-list-entry .label-description": {
-          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
           "font-size": "11px",
           "opacity": "0.9"
         },
         ".search-view .monaco-list-row .monaco-icon-label": {
-          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
           "font-size": "12px"
         },
         ".explorer-folders-view .monaco-tl-row .monaco-icon-label": {
-          "font-family": "'Segoe Script', 'Apple Chancery', 'Snell Roundhand', 'Bradley Hand ITC', 'Chalkboard SE', cursive",
+          "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
           "font-size": "12px"
         }
       },
@@ -81,9 +81,9 @@
         "editor.cursorSmoothCaretAnimation": "on",
         "terminal.integrated.cursorStyle": "line",
         "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.codeLensFontSize": 11
       },
       "[airess bloom]": {
@@ -94,9 +94,9 @@
         "editor.cursorSmoothCaretAnimation": "on",
         "terminal.integrated.cursorStyle": "line",
         "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.codeLensFontSize": 11
       },
       "[midnight airess]": {
@@ -107,9 +107,9 @@
         "editor.cursorSmoothCaretAnimation": "on",
         "terminal.integrated.cursorStyle": "line",
         "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.codeLensFontSize": 11
       },
       "[velvet airess]": {
@@ -120,9 +120,9 @@
         "editor.cursorSmoothCaretAnimation": "on",
         "terminal.integrated.cursorStyle": "line",
         "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "Segoe Script, Apple Chancery, Snell Roundhand, Bradley Hand ITC, Chalkboard SE, cursive",
+        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
         "editor.codeLensFontSize": 11
       }
     }
