@@ -3,7 +3,7 @@
   "displayName": "airess glow",
   "icon": "icon.png",
   "description": "Four airess themes: airess bloom (rosy pink light), lumen airess (lilac purple light), midnight airess (magenta noir dark), velvet airess (deep indigo dark). ✨",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "airess",
   "engines": {
     "vscode": "^1.74.0"
