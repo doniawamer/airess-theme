@@ -33,58 +33,17 @@
       }
     ],
     "configurationDefaults": {
-      "[lumen airess]": {
-        "editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs": "active",
-        "editor.cursorStyle": "line",
-        "editor.cursorWidth": 5,
-        "editor.cursorSmoothCaretAnimation": "on",
-        "terminal.integrated.cursorStyle": "line",
-        "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.codeLensFontSize": 11
-      },
-      "[airess bloom]": {
-        "editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs": "active",
-        "editor.cursorStyle": "line",
-        "editor.cursorWidth": 5,
-        "editor.cursorSmoothCaretAnimation": "on",
-        "terminal.integrated.cursorStyle": "line",
-        "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.codeLensFontSize": 11
-      },
-      "[midnight airess]": {
-        "editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs": "active",
-        "editor.cursorStyle": "line",
-        "editor.cursorWidth": 5,
-        "editor.cursorSmoothCaretAnimation": "on",
-        "terminal.integrated.cursorStyle": "line",
-        "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.codeLensFontSize": 11
-      },
-      "[velvet airess]": {
-        "editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs": "active",
-        "editor.cursorStyle": "line",
-        "editor.cursorWidth": 5,
-        "editor.cursorSmoothCaretAnimation": "on",
-        "terminal.integrated.cursorStyle": "line",
-        "terminal.integrated.cursorWidth": 3,
-        "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.inlayHints.fontSize": 11,
-        "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-        "editor.codeLensFontSize": 11
-      }
+      "editor.bracketPairColorization.enabled": true,
+      "editor.guides.bracketPairs": "active",
+      "editor.cursorStyle": "line",
+      "editor.cursorWidth": 5,
+      "editor.cursorSmoothCaretAnimation": "on",
+      "terminal.integrated.cursorStyle": "line",
+      "terminal.integrated.cursorWidth": 3,
+      "editor.inlayHints.fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "editor.inlayHints.fontSize": 11,
+      "editor.codeLensFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+      "editor.codeLensFontSize": 11
     }
   }
 }
