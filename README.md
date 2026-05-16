@@ -4,10 +4,17 @@ A collection of four beautiful, carefully curated VS Code themes from the airess
 
 ## Themes
 
-- **lumen airess** - Light theme with lilac purple accents ✨
-- **airess bloom** - Light theme with rosy pink accents 🌸
-- **midnight airess** - Dark theme with magenta noir accents 🌙
-- **velvet airess** - Dark theme with deep indigo accents 💜
+### lumen airess — Light theme with lilac purple accents ✨
+![lumen airess](https://raw.githubusercontent.com/doniawamer/airess-theme/main/images/lumen-airess.png)
+
+### airess bloom — Light theme with rosy pink accents 🌸
+![airess bloom](https://raw.githubusercontent.com/doniawamer/airess-theme/main/images/airess-bloom.png)
+
+### midnight airess — Dark theme with magenta noir accents 🌙
+![midnight airess](https://raw.githubusercontent.com/doniawamer/airess-theme/main/images/midnight-airess.png)
+
+### velvet airess — Dark theme with deep indigo accents 💜
+![velvet airess](https://raw.githubusercontent.com/doniawamer/airess-theme/main/images/velvet-airess.png)
 
 ## Features
 
